@@ -1,0 +1,32 @@
+package homework3;
+import java.util.*;
+public class h3_9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        double x,y;
+		System.out.print("Enter a point's x- and y-coordinates: ");
+		Scanner input = new Scanner(System.in);
+		x = input.nextDouble();
+		y = input.nextDouble();
+		
+		// Check if the point is in the triangle
+		if(x != 200)
+		{
+			if((-0.5 <= -1 * y / (200 - x)
+				&& -1 * y / (200 - x) <= 0)
+				&& (x >= 0 && x < 200))
+				System.out.println("The point is in the triangle");
+			else
+				System.out.println("The point is not in the triangle");
+		}
+		else
+		{
+			if(y != 0)
+				System.out.println("The point is not in the triangle");
+			else
+				System.out.println("The point is in the triangle");
+		}
+	}
+
+}
