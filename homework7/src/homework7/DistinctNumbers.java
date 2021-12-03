@@ -5,7 +5,7 @@ public class DistinctNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<Integer>list = new ArrayList1<>();
+		ArrayList<Integer>list = new ArrayList<>();
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter int(end with 0):");
 		int value;
